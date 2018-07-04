@@ -548,7 +548,7 @@ textarea:focus {
         form {
             position: relative;
             z-index: 10;
-            width: 230px;
+            width: 150px;
             height: 40px;
             margin: 0 50px;
             @media #{$breakpoint-lg} {
@@ -612,7 +612,7 @@ textarea:focus {
     a {
         position: relative;
         display: inline-block;
-        padding: 0 20px;
+        padding: 50 20px;
         height: 40px;
         font-weight: 600;
         text-transform: uppercase;
@@ -2247,12 +2247,11 @@ textarea:focus {
     position: relative;
     z-index: 1;
     background-color: $footer-color;
-    padding: 40px 0;
     text-align: center;
     border-bottom: 1px solid #4c4c4c;
     .footer-logo {
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     p {
         margin-bottom: 0;
